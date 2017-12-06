@@ -217,6 +217,8 @@ footer .push{
   height: 15px;
 }
 
+/*Moving Divs into Columnar Classes from styled Classes*/
+
 .col-4{
   line-height: 20px;
   background: #ffffff;
@@ -259,12 +261,13 @@ footer .push{
 }
 
 @media only screen and (max-width: 768px) {
-  /* For mobile phones: */
+  /* For Tablets: */
   [class*="col-1"] {
     max-width: 730px;
     width: 100%;
     margin: 0 20px 0 20px;
   }
+
   [class*="col-2"] {
     max-width: 730px;
     width: 100%;
@@ -276,18 +279,40 @@ footer .push{
     width: 100%;
     margin: 150px 20px 0 20px;
   }
+
   [class*="col-4"] {
     max-width: 730px;
     width: 100%;
     margin: 50px 20px 100px 0px;
   }
 
-}
+  @media only screen and (max-width: 640px) {
+    /* For Mobile Phones: */
+    [class*="col-1"] {
+      max-width: 640px;
+      width: 100%;
+      margin: 0 20px 0 20px;
+      content: center;
+    }
+
+    [class*="col-2"] {
+      max-width: 640px;
+      width: 100%;
+      margin: 0 20px 0 0;
+      clear: both;
+      display: inline-block;
+      content: center;
 
 
-@media only screen and (max-width: 640px) {
-  /* For mobile phones: */
-  [class*="col-"] {
-    width: 100%;
-  }
-}
+    }
+
+    [class*="col-3"] {
+      max-width: 600px;
+      width: 100%;
+      margin: 150px 20px 0 20px;
+    }
+    [class*="col-4"] {
+      max-width: 600px;
+      width: 100%;
+      margin: 50px 20px 100px 0px;
+    }
