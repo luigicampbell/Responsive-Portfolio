@@ -9,30 +9,34 @@
   <link rel="icon" type="image/png" href="assets/images/favicon.ico">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
+<body background="assets/images/skulls.png">
 
-<body background="assets/images/skulls.png">  <!--Header-->
-  <header id="bigHeader">
+  <!--Header-->
+  <div class = "row">
 
-    <!--First Partition for logo-->
-    <div class="container">
-      <div class="row">
-        <div class="col-4">
-      <a href="index.html" id="logo"> Luigi Campbell</a>
+    <header id="bigHeader">
+      <div>
+
+        <!--First Partition for logo-->
+        <div class="col-1">
+          <a href="index.html" id="logo"> Luigi Campbell</a>
+        </div>
+
+        <div class="col-2">
+
+          <!--Nav Bar-->
+          <nav class="options">
+            <a class="separator" href="index.html" style="border-left:1px solid #ffffff"> &nbsp;&nbsp;About&nbsp;&nbsp;</a>
+            <a class="separator" href="portfolio.html">&nbsp;&nbsp;Portfolio&nbsp;&nbsp;</a>
+            <a href="contact.html">&nbsp;&nbsp;Contact&nbsp;&nbsp;</a>
+          </nav>
+        </div>
+      </div>
     </div>
-    <div class="col-8">
-      
-      <!--Nav Bar-->
-      <nav class="options">
-        <a class="separator" href="index.html" style="border-left:1px solid #ffffff"> &nbsp;&nbsp;About&nbsp;&nbsp;</a>
-        <a class="separator" href="portfolio.html">&nbsp;&nbsp;Portfolio&nbsp;&nbsp;</a>
-        <a href="contact.html">&nbsp;&nbsp;Contact&nbsp;&nbsp;</a>
-      </nav>
-    </div>
-  </div>
   </header>
 
   <!--Main Content Section-->
-  <div id="mainContent" class="container">
+  <div class="col-3">
     <div class="row">
       <div class="col-sm-8">
         <section class="mainSectionContent">
@@ -64,21 +68,19 @@
 
             <h3>Rock Paper Scissors</h3>
           </div>
-        </section>
+        </div>
       </div>
 
-      <div class="col-sm-4">
+      <div class="col-4">
         <!--Sidebar for GH LI and SO-->
-        <section class="sidebar">
 
-          <!--Section Connect-->
-          <div id="connect">
-            <h2>Connect With Me</h2>
-            <a href="https://github.com/luigicampbell" target="_blank"><img src="assets/images/if_github_square_black_107109.png"   class="networking" alt="Github"></a>
-            <a href="https://www.linkedin.com/in/byron-campbell-464838149/" target="_blank"><img src="assets/images/if_linkedin_square_color_107091.png"   class="networking" alt="LinkedIn"></a>
-            <a href="https://stackoverflow.com/users/8793814/luigi" target="_blank"><img src="assets/images/if_StackOverflow_273179.png"   class="networking" alt="StackOverflow"></a>
-          </div>
-        </section>
+        <!--Section Connect-->
+        <div id="connect">
+          <h2>Connect With Me</h2>
+          <a href="https://github.com/luigicampbell" target="_blank"><img src="assets/images/if_github_square_black_107109.png"   class="networking" alt="Github"></a>
+          <a href="https://www.linkedin.com/in/byron-campbell-464838149/" target="_blank"><img src="assets/images/if_linkedin_square_color_107091.png"   class="networking" alt="LinkedIn"></a>
+          <a href="https://stackoverflow.com/users/8793814/luigi" target="_blank"><img src="assets/images/if_StackOverflow_273179.png"   class="networking" alt="Stackoverflow"></a>
+        </div>
       </div>
     </div>
   </div>

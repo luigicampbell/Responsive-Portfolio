@@ -52,6 +52,7 @@ nav{
   text-align: right;
   line-height: 100px;
   font-size: 18px;
+  margin-right: 25%;
 }
 
 body{
@@ -248,7 +249,6 @@ footer .push{
 .col-2{
   margin: 0 160px 0 0;
 }
-
 
 .col-1{
   margin: 0 50px 0 110px;
