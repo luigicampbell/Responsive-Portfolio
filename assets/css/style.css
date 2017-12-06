@@ -279,46 +279,63 @@ footer .push{
     margin: 50px 20px 100px 0px;
   }
 
-  @media only screen and (max-width: 640px) {
-    /* For Mobile Phones: */
-    #bigHeader{
+  .auth-image{
+  float: left;
+  height: auto;
+  width: 300px;
+  margin-right: 20px;
+  }
+
+}
+
+@media only screen and (max-width: 640px) {
+  /* For Mobile Phones: */
+  #bigHeader{
     margin: 0 0 0 0;
     width: 100%;
     overflow: hidden;
-}
-    #logo{
+  }
+  #logo{
     max-width: 640px;
     width: 100%;
     margin: 0 0 0 0;
     float: left;
-}
+  }
 
-    [class*="col-1"] {
-      max-width: 640px;
-      width: 100%;
-      margin: 0 0 0 0;
-      display: inline-block;
-    }
-    nav{
+  [class*="col-1"] {
+    max-width: 640px;
+    width: 100%;
+    margin: 0 0 0 0;
+    display: inline-block;
+  }
+  nav{
     margin: 0 30% 0 0;
 
-}
-    [class*="col-2"] {
-      max-width: 640px;
-      width: 100%;
-      margin: 0 0 0 0;
-      clear: both;
-      display: inline-block;
-    }
+  }
+  [class*="col-2"] {
+    max-width: 640px;
+    width: 100%;
+    margin: 0 0 0 0;
+    clear: both;
+    display: inline-block;
+  }
 
-    [class*="col-3"] {
-      max-width: 600px;
-      width: 100%;
-      margin: 250px 20px 0 20px;
-    }
-    [class*="col-4"] {
-      max-width: 600px;
-      width: 100%;
-      margin: 50px 20px 140px 0px;
-    }
+  [class*="col-3"] {
+    max-width: 600px;
+    width: 100%;
+    margin: 250px 20px 0 20px;
+  }
+  [class*="col-4"] {
+    max-width: 600px;
+    width: 100%;
+    margin: 50px 20px 140px 0px;
+  }
+
+  .auth-image{
+  height: auto;
+  width: 250px;
+  margin: 0 150px 10px 150px;
+
+}
+
 }
