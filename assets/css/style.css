@@ -55,6 +55,7 @@ opacity: .7;
   float: right;
   text-align: right;
   line-height: 100px;
+  font-size: 18px;
 }
 
 body{
@@ -64,7 +65,7 @@ body{
   font-size: 14px;
 }
 
-h1, h2, h3, p {
+h1, h2, h3, p{
   margin-bottom: 20px;
 }
 
@@ -74,13 +75,6 @@ p{
 
 p :last-child{
   margin-bottom: 0;
-}
-
-.container{
-  width: 100%;
-  max-width: 960px;
-  margin: 0 auto;
-  clear: both;
 }
 
 h1, h2{
@@ -97,18 +91,7 @@ h1, h2{
 
 }
 
-.mainSectionContent{
-  background: #ffffff;
-  padding: 30px;
-  margin: 0 0 50px 0;
-  width: 100%;
-  max-width:650px;
-  float: left;
-  border: 1px solid #dddddd;
-  padding-top: 17px;
-}
-
-.auth-image {
+.auth-image{
   height: auto;
   width: 200px;
   margin-top: 6px;
@@ -117,19 +100,7 @@ h1, h2{
   margin-left: 4px;
 }
 
-.sidebar {
-  max-width: 270px;
-  line-height: 20px;
-  background: #ffffff;
-  padding: 30px;
-  margin-bottom: 20px;
-  float: right;
-  border: solid 1px #dddddd;
-  position: fixed;
-  left: 900px;
-}
-
-h2, h3, .sidebar {
+h2, h3, .sidebar{
   margin-bottom: 15px;
   line-height: 20px;
   border-bottom: solid 2px #eeeeee;
@@ -137,7 +108,7 @@ h2, h3, .sidebar {
   font-size: 20px;
 }
 
-#connect a:hover {
+#connect a:hover{
   opacity: .5;
   position: relative;
 
@@ -231,7 +202,7 @@ input[type=submit]{
   cursor: pointer;
 }
 
-img.auth-img :hover{
+img.auth-img :hover {
 	opacity: .5;
 }
 
@@ -246,10 +217,59 @@ footer .push{
   height: 15px;
 }
 
-.col-3 {width: 25%;}
-.col-9{width:75%;}
+.col-4{
+  line-height: 20px;
+  background: #ffffff;
+  padding: 30px;
+  margin-bottom: 20px;
+  float: right;
+  border: solid 1px #dddddd;
+  width: 100%;
+  max-width: 270px;
+  margin: 150px 150px 10px 0;
+
+
+
+}
+
+.col-3{
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  clear: both;
+  bottom: 120px;
+  right: 180px;
+  background: #ffffff;
+  padding: 30px;
+  margin: 150px 50px 10px 110px;
+  float: left;
+  border: 1px solid #dddddd;
+  padding-top: 17px;
+
+}
+
+.col-2{
+  margin: 0 160px 0 0;
+}
+
+
+.col-1{
+  margin: 0 50px 0 110px;
+
+}
 
 @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-3g"] {
+        max-width:700px;
+        width: 100%;
+        margin: 150px 50px 10px 110px;
+ }
+
+}
+
+
+@media only screen and (max-width: 640px) {
     /* For mobile phones: */
     [class*="col-"] {
         width: 100%;
