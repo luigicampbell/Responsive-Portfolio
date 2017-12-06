@@ -223,7 +223,8 @@ footer .push{
   border: solid 1px #dddddd;
   width: 100%;
   max-width: 270px;
-  margin: 150px 150px 10px 0;
+  margin: 150px 150px 10px 700px;
+  position: fixed;
 
 
 
@@ -240,8 +241,9 @@ footer .push{
   float: left;
   border: 1px solid #dddddd;
   padding-top: 17px;
-
 }
+
+#
 
 .col-2{
   margin: 0 160px 0 0;
@@ -277,6 +279,9 @@ footer .push{
     max-width: 730px;
     width: 100%;
     margin: 50px 20px 100px 0px;
+    position: static;
+
+
   }
 
   .auth-image{
@@ -329,6 +334,7 @@ footer .push{
     max-width: 600px;
     width: 100%;
     margin: 50px 20px 140px 0px;
+    position: static;
   }
 
   .auth-image{
