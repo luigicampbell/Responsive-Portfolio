@@ -51,7 +51,7 @@
 }
 
 nav{
-opacity: .7;
+  opacity: .7;
   float: right;
   text-align: right;
   line-height: 100px;
@@ -62,7 +62,7 @@ body{
   font-family:'Helvetica Neue','sans-serif';
   color: #777777;
   line-height: 25px;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 h1, h2, h3, p{
@@ -203,7 +203,7 @@ input[type=submit]{
 }
 
 img.auth-img :hover {
-	opacity: .5;
+  opacity: .5;
 }
 
 footer{
@@ -259,19 +259,35 @@ footer .push{
 }
 
 @media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    [class*="col-3g"] {
-        max-width:700px;
-        width: 100%;
-        margin: 150px 50px 10px 110px;
- }
+  /* For mobile phones: */
+  [class*="col-1"] {
+    max-width: 730px;
+    width: 100%;
+    margin: 0 20px 0 20px;
+  }
+  [class*="col-2"] {
+    max-width: 730px;
+    width: 100%;
+    margin: 0 20px 0 0;
+  }
+
+  [class*="col-3"] {
+    max-width: 730px;
+    width: 100%;
+    margin: 150px 20px 0 20px;
+  }
+  [class*="col-4"] {
+    max-width: 730px;
+    width: 100%;
+    margin: 50px 20px 100px 0px;
+  }
 
 }
 
 
 @media only screen and (max-width: 640px) {
-    /* For mobile phones: */
-    [class*="col-"] {
-        width: 100%;
-    }
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
 }
