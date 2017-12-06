@@ -234,11 +234,9 @@ footer .push{
   max-width: 400px;
   margin: 0 auto;
   clear: both;
-  bottom: 120px;
-  right: 180px;
   background: #ffffff;
   padding: 30px;
-  margin: 150px 50px 10px 110px;
+  margin: 150px 50px 150px 110px;
   float: left;
   border: 1px solid #dddddd;
   padding-top: 17px;
