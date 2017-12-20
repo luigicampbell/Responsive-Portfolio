@@ -292,7 +292,7 @@ footer .push{
 @media only screen and (max-width: 640px) {
   /* For Mobile Phones: */
   #bigHeader{
-    max-width: 375px;
+    max-width: 640px;
     margin: 0 0 0 0;
     width: 100%;
     overflow: hidden;
